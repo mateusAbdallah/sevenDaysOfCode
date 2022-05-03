@@ -10,12 +10,11 @@ body {
     width: 100%;
 }
 
-.cabecalho__nav {
-    width: 35%;
+.cabecalho__nav {    
     display: flex;
     justify-content: space-evenly;
     font-weight: 600;
-    font-size: 18px;
+    gap: 2.5rem;
 }
 
 .cabecalho__nav a {
@@ -26,8 +25,7 @@ body {
     font-size: 20px;
 }
 
-.cabecalho__login {
-    width: 15%;
+.cabecalho__login {    
     display: inline-block;
 }
 
@@ -54,5 +52,28 @@ body {
 
 .cabecalho__login a:hover {
     font-size: 19px;
+}
+
+.conteudo-principal {
+    text-align: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.conteudo-principal span {
+    color: #8E2424;
+    font-weight: 600;
+}
+
+.conteudo-principal__titulo {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.conteudo-principal__paragrafo {
+   color: #667085;
+   font-weight: 400;
+   font-size: 20px;
+   text-align: center;
 }
 
