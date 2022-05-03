@@ -22,19 +22,37 @@ body {
     text-decoration: none;   
 }
 
-.cabecalho__login {
-    width: 15%;
-    display: flex;
-    justify-content: space-around;
+.cabecalho__nav a:hover {
+    font-size: 20px;
 }
 
-.cabecalho__login button {
+.cabecalho__login {
+    width: 15%;
+    display: inline-block;
+}
+
+.cabecalho__login button {  
     height: 3rem;
-    width: 6rem;
+    width: 6rem;  
     background-color: #8E2424;
     color: white;
     border: 1px solid #8E2424;
     border-radius: 8px;
+    cursor: pointer;
 }
 
+.cabecalho__login button:hover {
+    font-size: 19px;
+    transform: scale(1.2);
+}
+
+.cabecalho__login a {
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.cabecalho__login a:hover {
+    font-size: 19px;
+}
 
