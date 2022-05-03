@@ -1,7 +1,40 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.cabecalho__nav {
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cabecalho__nav a {
+    text-decoration: none;   
+}
+
+.cabecalho__login {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho__login button {
+    height: 3rem;
+    width: 6rem;
+    background-color: #8E2424;
+    color: white;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
 }
 
 
