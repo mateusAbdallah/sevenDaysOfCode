@@ -31,7 +31,7 @@ body {
 
 .cabecalho__login button {  
     height: 3rem;
-    width: 6rem;  
+    width: 5rem;  
     background-color: #8E2424;
     color: white;
     border: 1px solid #8E2424;
@@ -77,3 +77,84 @@ body {
    text-align: center;
 }
 
+.metrica-container {
+    display: flex;
+    margin: 5rem;
+    gap: 3rem;
+}
+
+.metrica-container__primeira span {
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+}
+
+.metrica-container__primeira h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+}
+
+.metrica-container__primeira p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2px;
+    color: #667085;    
+}
+
+.metrica-container__segunda span {
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+}
+
+.metrica-container__segunda h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+}
+
+.metrica-container__segunda p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2px;
+    color: #667085;
+}
+
+.metrica-container__terceira span {
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+}
+
+.metrica-container__terceira h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+}
+
+.metrica-container__terceira p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2px;
+    color: #667085;
+}
+
+.metrica-container__quarta span {
+    font-weight: 600;
+    font-size: 60px;
+    color: #8E2424;
+}
+
+.metrica-container__quarta h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+}
+
+.metrica-container__quarta p {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2px;
+    color: #667085;
+}
