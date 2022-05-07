@@ -80,7 +80,7 @@ body {
 .metrica-container {
     display: flex;
     margin: 5rem;
-    gap: 3rem;
+    gap: 0.9rem;
 }
 
 .metrica-container__primeira span {
@@ -99,7 +99,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     padding: 2px;
-    color: #667085;    
+    color: #667085;
 }
 
 .metrica-container__segunda span {
@@ -157,4 +157,29 @@ body {
     font-size: 16px;
     padding: 2px;
     color: #667085;
+}
+
+.procurandoTalentos {
+    text-align: center;
+}
+
+.procurandoTalentos__vagas {    
+    display: inline-block;
+    border-radius: 4px;
+    color: #8E2424;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: aqua;    
+}
+
+.procurandoTalentos__procura {
+    font-size:  36px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.procurandoTalentos__vagaRemota {
+    color: #667085;
+    font-weight: 400;
+    font-size: 20px;
 }
