@@ -40,7 +40,7 @@ body {
 }
 
 .cabecalho__login button:hover {
-    font-size: 19px;
+    font-size: 16px;
     transform: scale(1.2);
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .cabecalho__login a:hover {
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .conteudo-principal {
@@ -182,4 +182,30 @@ body {
     color: #667085;
     font-weight: 400;
     font-size: 20px;
+}
+
+.vagas {
+    margin: 2.5rem 15rem;    
+}
+
+.vagas__design {
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.vagas__design-titulo {
+    margin: 2rem 1rem;
+}
+
+.vagas__dev-titulo {
+    margin: 2rem 1rem;
+}
+
+.informacoes {
+    margin: 2rem 1rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: #667085;
 }
