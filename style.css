@@ -9,26 +9,26 @@ body {
     margin-top: 2rem;
     width: 100%;
 }
-
+    
 .cabecalho__nav {    
     display: flex;
     justify-content: space-evenly;
     font-weight: 600;
     gap: 2.5rem;
 }
-
+    
 .cabecalho__nav a {
     text-decoration: none;   
 }
-
+    
 .cabecalho__nav a:hover {
     font-size: 20px;
 }
-
+    
 .cabecalho__login {    
     display: inline-block;
 }
-
+    
 .cabecalho__login button {  
     height: 3rem;
     width: 5rem;  
@@ -38,131 +38,131 @@ body {
     border-radius: 8px;
     cursor: pointer;
 }
-
+    
 .cabecalho__login button:hover {
     font-size: 16px;
     transform: scale(1.2);
 }
-
+    
 .cabecalho__login a {
     text-decoration: none;
     font-weight: 500;
     padding-right: 20px;
 }
-
+    
 .cabecalho__login a:hover {
     font-size: 18px;
 }
-
+    
 .conteudo-principal {
     text-align: center;
     width: 100%;
     margin-top: 5rem;
 }
-
+    
 .conteudo-principal span {
     color: #8E2424;
     font-weight: 600;
 }
-
+    
 .conteudo-principal__titulo {
     font-size: 48px;
     font-weight: 600;
 }
-
+    
 .conteudo-principal__paragrafo {
-   color: #667085;
-   font-weight: 400;
-   font-size: 22px;
-   text-align: center;
+    color: #667085;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
 }
-
+    
 .metrica-container {
     display: flex;
     margin: 5rem;
-    gap: 0.9rem;
+    gap: 0.5rem;
 }
-
+    
 .metrica-container__primeira span {
     font-weight: 600;
     font-size: 60px;
     color: #8E2424;
 }
-
+    
 .metrica-container__primeira h2 {
     font-weight: 500;
     font-size: 18px;
     color: #101828;
 }
-
+    
 .metrica-container__primeira p {
     font-weight: 400;
     font-size: 16px;
     padding: 2px;
     color: #667085;
 }
-
+    
 .metrica-container__segunda span {
     font-weight: 600;
     font-size: 60px;
     color: #8E2424;
 }
-
+    
 .metrica-container__segunda h2 {
     font-weight: 500;
     font-size: 18px;
     color: #101828;
 }
-
+    
 .metrica-container__segunda p {
     font-weight: 400;
     font-size: 16px;
     padding: 2px;
     color: #667085;
 }
-
+    
 .metrica-container__terceira span {
     font-weight: 600;
     font-size: 60px;
     color: #8E2424;
 }
-
+    
 .metrica-container__terceira h2 {
     font-weight: 500;
     font-size: 18px;
     color: #101828;
 }
-
+    
 .metrica-container__terceira p {
     font-weight: 400;
     font-size: 16px;
     padding: 2px;
     color: #667085;
 }
-
+    
 .metrica-container__quarta span {
     font-weight: 600;
     font-size: 60px;
     color: #8E2424;
 }
-
+    
 .metrica-container__quarta h2 {
     font-weight: 500;
     font-size: 18px;
     color: #101828;
 }
-
+    
 .metrica-container__quarta p {
     font-weight: 400;
     font-size: 16px;
     padding: 2px;
     color: #667085;
 }
-
+    
 .procurandoTalentos {
     text-align: center;
 }
-
+    
 .procurandoTalentos__vagas {    
     display: inline-block;
     border-radius: 4px;
@@ -171,41 +171,86 @@ body {
     font-size: 14px;
     background-color: aqua;    
 }
-
+    
 .procurandoTalentos__procura {
     font-size:  36px;
     font-weight: 600;
     margin: 10px 0px;
 }
-
+    
 .procurandoTalentos__vagaRemota {
     color: #667085;
     font-weight: 400;
     font-size: 20px;
 }
-
+    
 .vagas {
     margin: 2.5rem 15rem;    
 }
-
+    
 .vagas__design {
     font-weight: 500;
     font-size: 20px;
     font-weight: 500;
     font-size: 18px;
 }
-
+    
 .vagas__design-titulo {
     margin: 2rem 1rem;
+    font-weight: 500;
+    font-size: 18px;
 }
-
+    
+.vagas__dev {
+    font-size: 20px;
+    font-weight: 500;
+}
+    
 .vagas__dev-titulo {
     margin: 2rem 1rem;
+    font-size: 18px;
+    font-weight: 500;
 }
-
+    
 .informacoes {
     margin: 2rem 1rem;
     font-size: 16px;
     font-weight: 500;
     color: #667085;
 }
+
+.depoimento {
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.depoimento__titulo {
+    padding-top: 3rem;
+    text-align: center;
+    color: #8E2424;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.depoimento__frase {
+    text-align: center;
+    font-size: 500;
+    font-size: 36px;
+}
+
+.depoimento__colaboradora {
+    text-align: center;
+}
+
+.depoimento__autora {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.depoimento__cargo {
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+    padding-bottom: 2.5rem;
+}
+
