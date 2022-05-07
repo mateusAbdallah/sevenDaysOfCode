@@ -211,6 +211,12 @@ body {
     font-size: 18px;
     font-weight: 500;
 }
+
+.borda {
+    border: 1px solid aqua;
+    border-radius: 10px;
+    margin: 2rem 3rem;
+}
     
 .informacoes {
     margin: 2rem 1rem;
