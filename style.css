@@ -260,3 +260,38 @@ body {
     padding-bottom: 2.5rem;
 }
 
+.rodape {
+    text-align: center;
+    background-color: #F9FAFB;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    padding-top: 2.5rem;
+}
+
+.rodape__paragrafo {
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.rodape__entrada {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    height: 40px;
+    width: 360px;
+    padding: 5px;
+    padding: 10px;
+}
+
+.rodape__botao {
+   height: 40px;
+   color: #8E2424;
+   border-radius: 8px;
+   border: 1px solid #8E2424;
+   background: #8E2424;
+   color: #FFFFFF;   
+}
+
